@@ -1,0 +1,53 @@
+/*
+Apply style
+*/
+/*
+element selector
+*/
+h2{
+    color:red;
+}
+h3{
+    color:red;
+}
+/*grouping selector */
+h2,h3,p{
+    color:green;
+}
+/*
+id selector
+*/
+#first {
+     color:blue;
+}
+/*
+class selector
+*/
+.second {
+    color:brown;
+    border-style:dashed;
+    border-width: 10px;
+    border-color: aqua;
+    border:5px solid green;
+    padding: 30px 20px;
+    margin-top: 4px;
+}
+/*
+universal selector */
+* {
+    text-align:center ;
+}
+/*descendant selecter */
+div p{
+    color:#09a53d;
+}
+body {
+   /* background: rgb(214, 12, 96);
+    background-image:url("./img/harry.webp");
+    background-repeat: no-repeat;
+    background-position: right top;*/
+    background: rgb(38, 226, 117)
+    url("./image/screen-0.webp")
+    no-repeat
+    right top;
+}

@@ -1,0 +1,48 @@
+/* applying styles
+*/
+header{
+    background-color: aqua;
+    height: 100px;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 40px;
+}
+nav{
+    width: 30%;
+    background-color: blue;
+    height: 250px;
+    float: left;
+
+}
+nav ul{
+     list-style-type: none;
+
+}
+nav ul li {
+    text-align: center;
+   padding: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+}
+article{
+    width: 70%;
+    height: 250px;
+    background-color: aquamarine;
+    float: left;
+    text-align: center;
+}
+/* pseudo element selector */
+section::after{
+    display: table;
+    content: "";
+    clear: both;
+
+}
+
+footer{
+    background-color: bisque;
+    text-align: center;
+    font-size: 20px;
+    padding: 30px;
+}
